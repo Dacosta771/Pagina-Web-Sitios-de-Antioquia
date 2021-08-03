@@ -1,0 +1,77 @@
+/****** AJUSTES GENERALES ******
+********************************/
+* { margin: 0; padding: 0; }
+
+/****** ESTILOS DE LAS IMÁGENES ******
+**************************************/
+#principal { height: 100vh; }
+
+.foto {
+    height: calc(100vh/11);
+    transition: all 0.5s;
+    overflow: hidden;
+    position: relative;
+}
+
+img { width: 100%; margin-bottom: auto; }
+
+/****** ESTILOS DEL TEXTO ******
+********************************/
+h1, h2 {
+    position: absolute;
+    top: 30%;
+    color: orange;
+    -webkit-text-stroke: 1px black;
+    transition: 0.3s;
+}
+
+h1:hover { font-size: 30px; }
+h2:hover { font-size: 30px; }
+
+p {
+    transition: 0.5s;
+    position: absolute;
+    text-align: justify;
+    top: 100%;
+    font-size: 25px;
+    width: 80%;
+    left: 10%;
+    color: blue;
+    -webkit-text-stroke: 1px black;
+}
+
+.parrafo_desplegado {
+    position: absolute;
+    text-align: justify;
+    top: 40%;
+    font-size: 25px;
+    width: 80%;
+    left: 10%;
+    color: blue;
+    -webkit-text-stroke: 1px black;
+}
+
+.parrafo_replegado {
+    position: absolute;
+    text-align: justify;
+    top: 100%;
+    font-size: 25px;
+    width: 80%;
+    left: 10%;
+    color: blue;
+    -webkit-text-stroke: 1px black;
+}
+
+.foto a { color: red; }
+
+#titulo_1 { left: 5%;}
+#titulo_2 { left: 10%;}
+#titulo_3 { left: 15%;}
+#titulo_4 { left: 20%;}
+#titulo_5 { left: 25%;}
+#titulo_6 { left: 30%;}
+#titulo_7 { left: 25%;}
+#titulo_8 { left: 20%;}
+#titulo_9 { left: 15%;}
+#titulo_10 { left: 10%;}
+#titulo_11 { left: 5%;}

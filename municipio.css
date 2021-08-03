@@ -1,0 +1,221 @@
+/****** Ajustes iniciales ******/
+/*******************************/
+* { margin: 0; padding: 0; }
+
+body { background-color: #ECD9F6;}
+
+/****** Estilos de la cabecera ******/
+/************************************/
+header {
+    background-color: #333;
+    height: 100px;
+    /*position: fixed;*/
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+
+#contenedor_cabecera {
+    height: 100px;
+    width: 80%;
+    margin: auto;
+}
+
+.div_logo {
+    width: 40%;
+    height: 100px;
+    float: left;
+    box-sizing: border-box;
+}
+
+header nav {
+    width: 60%;
+    height: 100px;
+    float: left;
+    text-align: right;
+    padding-top: 18px;
+}
+
+#logo {
+    margin-top: 7.2vh;
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+}
+
+nav ul { float: left; }
+
+nav ul li {
+    display: inline-block;
+    transition: all 0.2s linear;
+    height: 29px;
+    margin-top: 28px;
+    padding: 0;
+}
+
+header ul li a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 2rem;
+    letter-spacing: 1px;
+    font-size: 14px;
+    padding-top: 0;
+    margin-top: 0;
+    text-align: center;
+    transition: 0.3s;
+}
+
+header ul li a:hover { font-size: 18px; }
+
+/****** Estilos del texto ******/
+/*******************************/
+h1 {
+    font-size: 50px;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+p {
+    font-size: 25px;
+    text-align: justify;
+    padding: 30px;
+    width: 80%;
+    max-width: 70%;
+    margin: 0 auto;
+    line-height: 2.2rem;
+}
+
+#primer_texto { padding-top: 100px; }
+
+.cuadro {
+    float: left;
+    border: green 10px double;
+    margin: 10px;
+}
+
+#mapa { float: right; }
+
+/****** Estilos de la galeria de fotos ******
+*********************************************/
+body { margin: 0; padding: 0; }
+
+img { width: 100%; }
+
+.contenedor_galeria {
+    height: 50vh;
+    width: 100%;
+    background-color: #C691E0;
+}
+
+.columna { flex: 20%; padding: 5px; }
+
+.columna img { padding-bottom: 5px; }
+
+.a {
+    height: 100%;
+    display: flex;
+    overflow: scroll;
+}
+
+/****** Estilos del Slider ******
+*********************************/
+.slider {
+    width: 95%;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+    border: white 5px solid;
+    box-shadow: 15px 15px 10px black;
+}
+
+.slider_municipios { height: 300px; background-position: center; }
+
+#ul_slider {
+    padding: 0;
+    display: flex;
+    width: 1000%;
+    animation: slider 50s infinite;
+    animation-direction: reverse;
+}
+@keyframes slider {
+    0% {margin-left: 0%;}
+    7% {margin-left: 0%;}
+
+    10% {margin-left: -100%;}
+    17% {margin-left: -100%;}
+
+    20% {margin-left: -200%;}
+    27% {margin-left: -200%;}
+
+    30% {margin-left: -300%;}
+    37% {margin-left: -300%;}
+
+    40% {margin-left: -400%;}
+    47% {margin-left: -400%;}
+
+    50% {margin-left: -500%;}
+    57% {margin-left: -500%;}
+
+    60% {margin-left: -600%;}
+    67% {margin-left: -600%;}
+
+    70% {margin-left: -700%;}
+    77% {margin-left: -700%;}
+
+    80% {margin-left: -800%;}
+    87% {margin-left: -800%;}
+
+    90% {margin-left: -900%;}
+    97% {margin-left: -900%;}
+}
+
+.slider li { list-style: none; width: 100%; }
+
+#muni_1 { background-image: url(Fotos/Abejorral-Escalada/front.jpg);}
+#muni_2 { background-image: url(Fotos/Abejorral-Aures/front.jpg);}
+#muni_3 { background-image: url(Fotos/Angelópolis/front.jpg);}
+#muni_4 { background-image: url(Fotos/Cable-Palmitas/front.jpg);}
+#muni_5 { background-image: url(Fotos/CamiloC/front.jpg);}
+#muni_6 { background-image: url(Fotos/CerroBravo/front.jpg);}
+#muni_7 { background-image: url(Fotos/CerroTuza/front.jpg);}
+#muni_8 { background-image: url(Fotos/Copacabana-Guarne/front.jpg);}
+#muni_9 { background-image: url(Fotos/Sevilla-Ebéjico/front.jpg);}
+#muni_10 { background-image: url(Fotos/Valparaíso/front.jpg);}
+
+/****** ESTILOS BOTONES SLIDER ******
+*************************************
+.boton {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background: rgba(255, 255, 255, 0.6);
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 40px;
+    font-weight: bold;
+    font-family: monospace;
+    text-align: center;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.boton_derecho {
+    right: 10px;
+}
+
+.boton_isquierdo {
+    left: 10px;
+}
+
+footer {
+    background-color: white;
+}
+
+.slider h3 {
+    font-size: 40px;
+    color: orange;
+    -webkit-text-stroke: 1px black;
+}
+
+*/
